@@ -28,7 +28,7 @@ class Discord(plugins.Plugin):
     __description__ = 'Sends Pwnagotchi status webhooks to Discord.'
 
     def on_loaded(self):
-        logging.info('Discord plug-in loaded.')
+        logging.info('Discord plugin loaded.')
 
     def on_internet_available(self, agent):
         display = agent.view()
